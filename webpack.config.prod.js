@@ -5,7 +5,6 @@ const OptimizeCssAssetsPlugin = require('optimize-css-assets-webpack-plugin') //
 const TerserPlugin = require('terser-webpack-plugin') // minify js
 const tailwindcss = require('tailwindcss')
 const autoprefixer = require('autoprefixer') // help tailwindcss to work
-const ImageminPlugin = require('imagemin-webpack-plugin').default // minimize images
 const imageminMozjpeg = require('imagemin-mozjpeg') // minimize images
 
 module.exports = {
